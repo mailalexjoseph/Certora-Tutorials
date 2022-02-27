@@ -1,0 +1,10 @@
+[
+    {
+        "importFilesToOrigRelpaths": {},
+        "primary_contract": "MeetingScheduler",
+        "specfile": ".certora_config/0_meetings.spec",
+        "specfileOrigRelpath": "meetings.spec",
+        "specfilesToImportDecls": {},
+        "type": "spec"
+    }
+]

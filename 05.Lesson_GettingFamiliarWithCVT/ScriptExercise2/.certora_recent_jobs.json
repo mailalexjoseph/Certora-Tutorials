@@ -1,0 +1,59 @@
+{
+    "workingDir": "C:/Users/aldot/documents/certora/tutorials/05.Lesson_GettingFamiliarWithCVT/scriptexercise2",
+    "recentJobs": [
+        {
+            "anonymous_key": "7d25e1fb041b3457a8a1992516f4e01d2b949263",
+            "domain": "https://prover.certora.com",
+            "job_id": "385e6993434f7beb6488",
+            "notify_msg": "Verfication of meetings spec",
+            "output_url": "https://prover.certora.com/output/64072/385e6993434f7beb6488?anonymousKey=7d25e1fb041b3457a8a1992516f4e01d2b949263",
+            "time": 1645719600,
+            "user_id": "64072"
+        },
+        {
+            "anonymous_key": "70142194dbdb426df6426b4c4e36714e3699afa2",
+            "domain": "https://prover.certora.com",
+            "job_id": "82f31b9c617773c9f118",
+            "notify_msg": "for all methods",
+            "output_url": "https://prover.certora.com/output/64072/82f31b9c617773c9f118?anonymousKey=70142194dbdb426df6426b4c4e36714e3699afa2",
+            "time": 1645719499,
+            "user_id": "64072"
+        },
+        {
+            "anonymous_key": "89d9174107beacd1594d539643248f4ce84adc35",
+            "domain": "https://prover.certora.com",
+            "job_id": "c41246d2a46b821dbe91",
+            "notify_msg": "for startMeeting method",
+            "output_url": "https://prover.certora.com/output/64072/c41246d2a46b821dbe91?anonymousKey=89d9174107beacd1594d539643248f4ce84adc35",
+            "time": 1645719487,
+            "user_id": "64072"
+        },
+        {
+            "anonymous_key": "f2dd7a55a29e07e4211282c3abce4f6f04f43add",
+            "domain": "https://prover.certora.com",
+            "job_id": "a901b683ce2081973dfd",
+            "notify_msg": "Verfication of meetings spec",
+            "output_url": "https://prover.certora.com/output/64072/a901b683ce2081973dfd?anonymousKey=f2dd7a55a29e07e4211282c3abce4f6f04f43add",
+            "time": 1645719049,
+            "user_id": "64072"
+        },
+        {
+            "anonymous_key": "800b9e2410dc8b9584bd7765f15d4e8902759e4e",
+            "domain": "https://prover.certora.com",
+            "job_id": "a9210f9351fca0bd8246",
+            "notify_msg": "Verfication of balanceChangesFromCertainFunctions rule in ERC20 spec",
+            "output_url": "https://prover.certora.com/output/64072/a9210f9351fca0bd8246?anonymousKey=800b9e2410dc8b9584bd7765f15d4e8902759e4e",
+            "time": 1645716727,
+            "user_id": "64072"
+        },
+        {
+            "anonymous_key": "a440274305099ce64d5eba3c84a262e2d108f7c7",
+            "domain": "https://prover.certora.com",
+            "job_id": "4f9c472936bad5f625ff",
+            "notify_msg": "Verfication of meetings spec",
+            "output_url": "https://prover.certora.com/output/64072/4f9c472936bad5f625ff?anonymousKey=a440274305099ce64d5eba3c84a262e2d108f7c7",
+            "time": 1645716653,
+            "user_id": "64072"
+        }
+    ]
+}

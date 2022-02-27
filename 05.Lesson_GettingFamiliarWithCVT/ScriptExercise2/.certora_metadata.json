@@ -1,0 +1,110 @@
+{
+    "args": {
+        "address": {},
+        "assert_contracts": null,
+        "build_only": false,
+        "bytecode_jsons": null,
+        "bytecode_spec": null,
+        "cache": "MeetingSchedulerFixed.sol:MeetingScheduler-optimisticFalse-iterNone",
+        "check_args": false,
+        "cloud": null,
+        "coinbaseMode": false,
+        "contracts": [
+            "MeetingScheduler"
+        ],
+        "debug": null,
+        "debug_topics": false,
+        "delay_fetch_output_seconds": null,
+        "disableLocalTypeChecking": false,
+        "disable_auto_cache_key_gen": false,
+        "env": "production",
+        "expected_file": "expected.json",
+        "file_paths": [
+            "MeetingSchedulerFixed.sol"
+        ],
+        "file_to_contract": {
+            "MeetingSchedulerFixed.sol": "MeetingScheduler"
+        },
+        "files": [
+            "MeetingSchedulerFixed.sol:MeetingScheduler"
+        ],
+        "internal_funcs": null,
+        "jar": null,
+        "java_args": null,
+        "key": "2b9ed07188b857f7ba51c652a84981fbacf5abc6",
+        "link": null,
+        "local": false,
+        "log_branch": null,
+        "log_query_frequency_seconds": null,
+        "loop_iter": null,
+        "max_attempts_to_fetch_output": null,
+        "max_graph_depth": null,
+        "max_poll_minutes": null,
+        "method": null,
+        "mode": "Mode.VERIFY",
+        "msg": "Verfication of meetings spec",
+        "multi_assert_check": false,
+        "no_compare": false,
+        "optimistic_loop": false,
+        "optimize": null,
+        "packages": null,
+        "packages_path": "C:/Users/aldot/documents/certora/tutorials/05.Lesson_GettingFamiliarWithCVT/scriptexercise2/node_modules",
+        "path": "C:\\Users\\aldot\\Documents\\Certora\\Tutorials\\05.Lesson_GettingFamiliarWithCVT\\ScriptExercise2",
+        "process": "emv",
+        "queue_wait_minutes": null,
+        "rule": null,
+        "rule_sanity": false,
+        "send_only": true,
+        "settings": null,
+        "short_output": true,
+        "smt_timeout": null,
+        "solc": "C:/solc/solc8.7.exe",
+        "solc_args": null,
+        "solc_map": null,
+        "spec_files": [
+            "meetings.spec"
+        ],
+        "staging": null,
+        "struct_link": null,
+        "tool_output": null,
+        "typecheck_only": false,
+        "user_defined_cache": false,
+        "verified_contract_files": [
+            "MeetingSchedulerFixed.sol"
+        ],
+        "verify": [
+            "MeetingScheduler:meetings.spec"
+        ]
+    },
+    "branch": "",
+    "conf": {
+        "cache": "MeetingSchedulerFixed.sol:MeetingScheduler-optimisticFalse-iterNone",
+        "expected_file": "expected.json",
+        "files": [
+            "MeetingSchedulerFixed.sol:MeetingScheduler"
+        ],
+        "msg": "Verfication of meetings spec",
+        "process": "emv",
+        "send_only": true,
+        "solc": "solc8.7",
+        "verify": [
+            "MeetingScheduler:meetings.spec"
+        ]
+    },
+    "cwd_relative": ".",
+    "dirty": false,
+    "origin": "",
+    "raw_args": [
+        "C:\\Users\\aldot\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\Scripts\\certoraRun",
+        "MeetingSchedulerFixed.sol:MeetingScheduler",
+        "--verify",
+        "MeetingScheduler:meetings.spec",
+        "--solc",
+        "solc8.7",
+        "--msg",
+        "Verfication of meetings spec",
+        "--send_only"
+    ],
+    "revision": "",
+    "timestamp": "1645699796.090626"
+}
