@@ -5,7 +5,6 @@ methods {
 }
 
 
-
 rule uniqueManagerAsRule(uint256 fundId1, uint256 fundId2, method f) {
 	// assume different IDs
 	require fundId1 != fundId2;
@@ -25,11 +24,22 @@ rule uniqueManagerAsRule(uint256 fundId1, uint256 fundId2, method f) {
 	
 	env e;
 	calldataarg args;
-	f(e,args);
+	
+	if (f.selector == claimManagement(uint256).selector)
+	{
+		uint256 id;
+		require (id == fundId1 || id == fundId2);
+		claimManagement(e, id);  
+	}
+	else f(e,args);
+	
+
 	address managerAfter1 = getCurrentManager(fundId1);
 	address managerAfter2 = getCurrentManager(fundId2);
 	// verify that the managers are still different 
 	assert managerAfter1 != managerAfter2, "managers not different";
+	assert managerAfter1 != 0 => isActiveManager(managerAfter1), "manager1 is not active";
+	assert managerAfter2 != 0 => isActiveManager(managerAfter2), "manager2 is not active";
 }
 
 
